@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(132, 210, 249);
+  font-family: 'Jura';
+  font-weight: normal;
+  font-style: normal;
+}
+
+div.wrapper div.details {
+  transform: scale(0,0);
+  opacity: 0;
+  -webkit-transition: all ease 300ms;
+  -moz-transition: all linear 300ms;
+  -o-transition: all ease 300ms;
+  transition: all ease 300ms;
+  padding: 0;
+}
+
+div.wrapper {
+  padding: 0;
+  clear: both;
+  height: 40rem;
+}
+
+div.wrapper ul {
+  list-style: none;
+  padding: 0;
+}
+
+div.wrapper li {
+  padding: 0.5rem; 0.5rem 0 0.5rem;
+}
+
+div.left li:hover {
+  background-color: rgba(255, 123, 0, 0.8);
+}
+
+div.right li:hover {
+  background-color: rgba(15, 133, 252, 0.8);
+}
+
+div.wrapper li:hover div.details {
+  transform: scale(1,1);
+  width: 100%;
+  opacity: 1;
+}
+
+div.background-bottom {
+  display: block;
+  position: relative;
+  background-image: url("bg_bottom.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+  width: 100%;
+  height: 0;
+  padding-bottom: 58%;
+  clear: both;
+}
+
+div.background-bottom div.bg-overlay {
+  display: block;
+  position: absolute;
+  left: 2rem;
+  bottom: 1rem;
+  width: 80%;
+  color: white;
+  padding: 0 0.5rem 0 1rem;
+  background-color: rgba(51, 51, 51, 0.7);
+}
+
+div.left {
+  display: block;
+  float: left;
+  width: 50%;
+  top: 0;
+  margin: 0;
+}
+
+div.left-content {
+  padding: 1rem;
+}
+
+div.right {
+  display: block;
+  float: right;
+  width: 50%;
+}
+
+div.right-content {
+  padding: 1rem;
+}
+
+div.history {
+  padding: 1rem;
+}
+
