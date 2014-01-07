@@ -20,7 +20,7 @@ div.wrapper div.details {
 div.wrapper {
   padding: 0;
   clear: both;
-  height: 40rem;
+  height: 40em;
 }
 
 div.wrapper ul {
@@ -29,7 +29,7 @@ div.wrapper ul {
 }
 
 div.wrapper li {
-  padding: 0.5rem; 0.5rem 0 0.5rem;
+  padding: 0.5em; 0.5em 0 0.5em;
 }
 
 div.left li:hover {
@@ -62,11 +62,11 @@ div.background-bottom {
 div.background-bottom div.bg-overlay {
   display: block;
   position: absolute;
-  left: 2rem;
-  bottom: 1rem;
+  left: 2em;
+  bottom: 1em;
   width: 80%;
   color: white;
-  padding: 0 0.5rem 0 1rem;
+  padding: 0 0.5em 0 1em;
   background-color: rgba(51, 51, 51, 0.7);
 }
 
@@ -79,7 +79,7 @@ div.left {
 }
 
 div.left-content {
-  padding: 1rem;
+  padding: 1em;
 }
 
 div.right {
@@ -89,10 +89,13 @@ div.right {
 }
 
 div.right-content {
-  padding: 1rem;
+  padding: 1em;
 }
 
 div.history {
-  padding: 1rem;
+  padding: 1em;
 }
 
+span.current {
+  font-size: 1.3em;
+}
