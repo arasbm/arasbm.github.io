@@ -49,7 +49,7 @@ div.wrapper li:hover div.details {
 div.background-bottom {
   display: block;
   position: relative;
-  background-image: url("bg_bottom.jpg");
+  background-image: url("./bg_bottom.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100% auto;
